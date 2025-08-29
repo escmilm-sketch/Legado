@@ -1,0 +1,30 @@
+[Main]
+DumpEntries=1
+[AcadCrashDump1]
+ExeTimeDateStamp=0x36FA180D
+CrashTimeDateStamp=0x43D1D354
+acadVer=15.0h (Hardware Lock)
+WinVer=0xA280105
+DumpType=InternalError
+ErrorText=La seguridad del sistema (ya sea llave de protección o licencia de red)
+ContextFlags=0x10007
+SegGs=0x0
+SegFs=0x3B
+SegEs=0x23
+SegDs=0x23
+Edi=0x13F605
+Esi=0x13F604
+Ebx=0x12AD300
+Edx=0x3
+Ecx=0x5
+Eax=0x69614D5B
+Ebp=0x13E6EC
+Eip=0x85F11D
+SegCs=0x1B
+EFlags=0x202
+Esp=0x13E6DC
+SegSs=0x23
+ReferenceAddr=0x92E0F0
+ReferenceName=_WinMain@16
+StackWalk0=13F2FC,45E11D,1,SymExport,GetViewportInfo+370D,C:\Archivos de programa\ACAD2000\acad.exe
+no funciona o está instalada incorrectamente

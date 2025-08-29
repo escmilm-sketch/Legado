@@ -1,0 +1,25 @@
+<!-- #BeginTemplate "/Templates/zaccari_base.dwt" -->
+<html>
+  <head>
+    <title>Zaccari e Hijos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Otros metadatos fijos -->
+  </head>
+  <body>
+    <header>
+      <!-- Encabezado fijo con logo, menú, contacto -->
+    </header>
+
+    <main>
+      <!-- #BeginEditable "contenido" -->
+      <!-- Aquí irá el contenido específico de cada página -->
+      <!-- #EndEditable -->
+    </main>
+
+    <footer>
+      <!-- Pie de página con datos de contacto, enlaces, etc. -->
+    </footer>
+  </body>
+</html>
+<!-- #EndTemplate -->
+

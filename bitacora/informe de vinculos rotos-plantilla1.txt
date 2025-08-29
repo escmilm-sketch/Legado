@@ -1,0 +1,41 @@
+Vínculos rotos: 
+
+Templates/plantilla 1.dwt	favicom.png
+Templates/plantilla 1.dwt	../index.html
+Templates/plantilla 1.dwt	http//:www.zaccariehijos.blogspot.com
+Templates/plantilla 1.dwt	http//:www.facebook.com/profile.php?id=100070206045047
+Templates/plantilla 1.dwt	../Consultas.html
+Templates/plantilla 1.dwt	../Como llegar.html
+Templates/plantilla 1.dwt	../Torre para hoyadora.html
+Templates/plantilla 1.dwt	../piccolo punzone.html
+Templates/plantilla 1.dwt	../guri 2012v12.html
+Templates/plantilla 1.dwt	../guri 2012v24.html
+Templates/plantilla 1.dwt	../pampa.html
+Templates/plantilla 1.dwt	../pampa 3.html
+Templates/plantilla 1.dwt	../3EN1 v11.html
+Templates/plantilla 1.dwt	../3EN1 v18.html
+Templates/plantilla 1.dwt	../Leslie I v14.html
+Templates/plantilla 1.dwt	../Leslie II v15.html
+Templates/plantilla 1.dwt	../Leslie IIIv18.html
+Templates/plantilla 1.dwt	../hoyadoras.html
+Templates/plantilla 1.dwt	../Linea Hidraulica.html
+Templates/plantilla 1.dwt	../Retroexcavadora.html
+Templates/plantilla 1.dwt	../Venta de partes.html
+Templates/plantilla 1.dwt	../Herramientas.html
+Templates/plantilla 1.dwt	../Reenvio STP.html
+Templates/plantilla 1.dwt	../Homologacion.html
+Templates/plantilla 1.dwt	../Videos.html
+Templates/plantilla 1.dwt	../Oferta limit.html
+Templates/plantilla 1.dwt	../folletos de equipos.html
+Templates/plantilla 1.dwt	../Follet herram.html
+Templates/plantilla 1.dwt	../Manuales de.html
+Templates/plantilla 1.dwt	../pzmaquinas@yahoo.com.ar
+Templates/plantilla 1.dwt	../pzmaquinas@hotmail.com
+
+
+Vínculos externos: 
+
+
+
+Archivos: 1 Total,  1 HTML
+Archivos 38 vínculos en total,  7 correctos,  31 rotos,  0 externos
