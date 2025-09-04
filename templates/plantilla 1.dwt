@@ -6,7 +6,7 @@
 <!-- TemplateEndEditable -->
 <meta http-equiv="Content-Language" content="Español, Castellano" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="icon" type="Img/png" sizes="16x16" href="../favicom.png">
+<link rel="icon" type="img/png" sizes="16x16" href="../favicom.png">
 <style type="text/css">
 <!--
 -->
@@ -24,7 +24,7 @@
 }
 -->
 </style>
-<link href="../css/style1.css" rel="stylesheet" type="text/css" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicom.png">
 </head>
 <body>
 <!-- TemplateBeginEditable name="EditRegion3" -->
@@ -32,13 +32,13 @@
   <div id="header"> <img src="../Img/LOGO-PZ-Maquinas.png" alt="Zaccari e hijos" width="850" height="60" longdesc="Zaccari e hijos, fabricante de equipos y herramientas de peforacion" /><br />
   &nbsp;<img src="../Img/pic2.jpg" alt="panoramica" width="792" height="200" longdesc="f.jpg" />
   <div class="right" id="menu">
-    <ul>
+      <ul>
+      <li><a href="../como_llegar.html">Cómo llegar</a></li>
+      <li><a href="http://www.zaccariehijos.blogspot.com" target="_blank">Nuestro Blog</a></li>
+      <li><a href="http://www.facebook.com/profile.php?id=100070206045047" target="_blank">Facebook</a></li>
+      <li><a href="../consultas.html">Consultas</a></li>
       <li><a href="../index.html">Inicio</a></li>
-      <li><a href="http//:www.zaccariehijos.blogspot.com">Nuestro Blog</a></li>
-      <li><a href="http//:www.facebook.com/profile.php?id=100070206045047">Facebook</a></li>
-      <li><a href="../consultas.html">Consultas </a></li>
-      <li><a href="../como llegar.html">Como llegar</a></li>
-    </ul>
+      </ul>
   </div>
   </div>
   <div id="content">
@@ -50,20 +50,25 @@
     </div>
     <div class="left">
       <h2>Menu :</h2>
-      <ul><li><a href="../torre  guia.html">Torre para hoyadora</a> </li>
-        <li><a href="../piccolo punzone.html">Piccolo Punzone </a></li>
-        <li><a href="../guri 2012.html">Gurí 2012 versiones</a></li>
-        <li><a href="../pampa.html">Pampa versiones </a></li>
-        <li><a href="../3EN1.html">3EN1 versiones</a></li>
-        <li><a href="../leslie I.html">Leslie <strong>I </strong>v14</a></li>
-        <li><a href="../leslie II.html">Leslie <strong>II</strong> v15</a></li>
-        <li><a href="../leslie III.html">Leslie <strong>III</strong> v18</a></li>
-        <li><a href="../leslie III.html">Hoyadora UNLP</a></li>
-        <li><a href="../l hidraulica.html">Linea hidraulica</a></li>
-        <li><a href="../retroexcavadora.html">Retroexcavadora</a></li>
-        <li><a href="../venta.html">Venta de partes </a></li>
-        <li><a href="../herramientas.html">Herramientas</a></li>
-        <li><a href="../stp.html">Reenvio  STP </a></li>
+      <ul>
+          <li><a href="../torre  guia.html">Torre para hoyadora</a></li>
+          <li><a href="../piccolo punzone.html">Piccolo Punzone</a></li>
+          <li><a href="../gurí2012.html">Gurí 2012 versiones</a></li>
+          <li><a href="../pampa.html">Pampa versiones</a></li>
+          <li><a href="../3en1.html">3EN1 versiones</a></li>
+          <li><a href="../leslie1.html">Leslie I v14</a></li>
+          <li><a href="../leslie2.html">Leslie II v15</a></li>
+          <li><a href="../leslie3.html">Leslie III v18</a></li>
+          <li><a href="../hoyadoraUNLP.html">Hoyadora UNLP</a></li>
+          <li><a href="../lineaHidraulica.html">Línea hidráulica</a></li>
+          <li><a href="../retroexcavadora.html">Retroexcavadora</a></li>
+          <li><a href="../partes.html">Venta de partes</a></li>
+          <li><a href="../herramientas.html">Herramientas</a></li>
+          <li><a href="../reenvioSTP.html">Reenvío STP</a></li>
+          <li><a href="../catalogo2024.pdf">Catálogo 2024</a></li>
+          <li><a href="../homologacion.html">Homologación</a></li>
+          <li><a href="../oferta.html">Oferta limitada</a></li>
+          <li><a href="../manuales.html">Manuales</a></li>
       </ul>
       <ul><li><strong>Catalogo 2024</strong> <a href="../Catalogos Zaccari/Catalogo 2024 Zaccari e hijos A4 v4.pdf"><br />
           descargar </a></li>
