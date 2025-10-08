@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Rutas en formato Git Bash
+ORIGEN="/c/Users/Usuario/Documents/WEB03 – Sitio Provisorio de Trabajo"
+DESTINO="/c/Users/Usuario/Documents/Legado"
+
+# Ir al repositorio
+cd "$DESTINO"
+
+# Eliminar todo lo anterior
+git rm -r *
+git commit -m "Limpieza total del repositorio para nueva estructura"
+git push origin main
+
+# Copiar archivos corregidos
+cp "$ORIGEN/index.html" "$DESTINO/"
+cp "$ORIGEN/como_llegar.html" "$DESTINO/"
+cp "$ORIGEN/guri_2012.html" "$DESTINO/"
+cp -r "$ORIGEN/css" "$DESTINO/"
+cp -r "$ORIGEN/img" "$DESTINO/"
+
+# Agregar y subir nueva estructura
+cd "$DESTINO"
+git add .
+git commit -m "Subo estructura corregida y páginas actualizadas"
+git push origin main

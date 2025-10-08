@@ -1,0 +1,29 @@
+el repositorio vacio, solo quiero subir el sitio completo desde la siguiente direccion C:\Users\Usuario\Documents\WEB03 – Sitio Provisorio de Trabajo
+Perfecto, Claudio. Como el repositorio está vacío y querés subir el sitio completo desde:
+
+Código
+C:\Users\Usuario\Documents\WEB03 – Sitio Provisorio de Trabajo
+te paso la línea de comando exacta para hacerlo desde Git Bash:
+
+✅ Línea de comando para subir todo el sitio
+bash
+cd "/c/Users/Usuario/Documents/WEB03 – Sitio Provisorio de Trabajo"
+git add .
+git commit -m "Subo sitio completo corregido"
+git push origin main
+🧠 Qué hace cada paso
+cd ... → Te posicionás en la carpeta donde está el sitio completo.
+
+git add . → Agregás todos los archivos y carpetas al repositorio.
+
+git commit -m ... → Confirmás los cambios con un mensaje claro.
+
+git push origin main → Subís todo al repositorio remoto en la rama main.
+
+Si el repositorio no está inicializado en esa carpeta, primero ejecutá:
+
+bash
+git init
+git remote add origin https://github.com/escmilm-sketch/Legado.git
+git branch -M main
+Y luego hacé el add, commit y push.

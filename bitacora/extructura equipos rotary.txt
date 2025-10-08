@@ -1,0 +1,2 @@
+para los equipos la extructura del contenido principal es asi, dos cajas o columnas, del lado izquierdo tres filas, donde iran las fotos, en la columna de la derecha las espesificaciones de la maquina.
+para los equipos piccolo punzone, Guri 2012, Pampa y 3en1estas cajas estarn duplicadas para mostrar dos versiones del mismo equipo

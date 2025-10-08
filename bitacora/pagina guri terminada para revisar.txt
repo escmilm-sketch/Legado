@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gurí 2012 versiones</title>
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    .equipo-caja {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    .equipo-fotos {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-right: 20px;
+    }
+    .equipo-fotos img {
+      max-width: 290px;
+      height: auto;
+      border: 1px solid #999;
+    }
+    .equipo-detalle {
+      flex: 2;
+      min-width: 300px;
+    }
+    .equipo-detalle h3 {
+      margin-top: 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="wrap">
+
+    <!-- Encabezado -->
+    <div class="encabezado">
+      <img src="img/banner.jpg" alt="Banner Zaccari e Hijos">
+    </div>
+
+    <!-- Menú superior -->
+    <div class="menu-superior">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="consultas.html">Consultas</a></li>
+        <li><a href="como_llegar.html">Cómo llegar</a></li>
+        <li><a href="archivos/catalogo_2024.pdf" download>Catálogo 2024</a></li>
+      </ul>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div id="border">
+
+      <!-- Menú lateral -->
+      <div class="menu-lateral">
+        <ul>
+          <li><a href="torre_hoyadora.html">Torre para hoyadora</a></li>
+          <li><a href="piccolo_punzone.html">Piccolo Punzone</a></li>
+          <li><a href="guri_2012.html">Gurí 2012 versiones</a></li>
+          <li><a href="pampa.html">Pampa versiones</a></li>
+          <li><a href="3en1.html">3EN1 versiones</a></li>
+          <li><a href="leslie1_v14.html">Leslie I v14</a></li>
+          <li><a href="leslie2_v15.html">Leslie II v15</a></li>
+          <li><a href="leslie3_v18.html">Leslie III v18</a></li>
+        </ul>
+      </div>
+
+      <!-- Contenido principal -->
+      <main>
+        <h2>Gurí 2012 - Versiones v12 y v24</h2>
+
+        <!-- Caja superior: Gurí 2012 v12 -->
+        <div class="equipo-caja">
+          <div class="equipo-fotos">
+            <img src="img/guri/Gurí2012v12b1.jpg" alt="Gurí 2012 v12 - Foto 1">
+            <img src="img/guri/Gurí2012v12.jpg" alt="Gurí 2012 v12 - Foto 2">
+            <img src="img/guri/Gurí2012v12b2.jpg" alt="Gurí 2012 v12 - Foto 3">
+          </div>
+          <div class="equipo-detalle">
+            <h3>Gurí 2012 v12</h3>
+            <p>Esta es la versión original de este modelo, más simple y liviano que las versiones actuales, pero con muy buena prestación.</p>
+            <p>Es un equipo para transportar sobre un vehículo. Maniobrable entre dos personas, o disponiendo de una planchada para su descarga. Trabaja con barras de 1" sched 40 u 80 de 1500 mm de largo.</p>
+            <p>El rango de perforación está dado por las características del suelo. Con una profundidad estimada entre 40/50 metros. Esto también varía según la experiencia del operador perforista.</p>
+            <p><strong>Equipado con:</strong></p>
+            <ul>
+              <li>Motor de 8 hp</li>
+              <li>Bomba de lodos</li>
+              <li>Malacate manual de 600 kg</li>
+              <li>Linga, grillete, roldana con rulemán</li>
+              <li>Torre para barras de 1500 mm</li>
+              <li>Junta giratoria de 1"</li>
+              <li>Soporte universal para junta giratoria</li>
+              <li>Embrague simple a polea</li>
+              <li>Cabezal rotary liviano</li>
+            </ul>
+            <p>El sistema de agua se vende por separado. No incluye válvula de retención.</p>
+          </div>
+        </div>
+
+        <!-- Caja inferior: Gurí 2012 v24 -->
+        <div class="equipo-caja">
+          <div class="equipo-fotos">
+            <img src="img/guri/guri2012v18a3.jpg" alt="Gurí 2012 v24 - Foto 1">
+            <img src="img/guri/guri2012v18a4.jpg" alt="Gurí 2012 v24 - Foto 2">
+            <img src="img/guri/guri2012v18a4.jpg" alt="Gurí 2012 v24 - Foto 3">
+          </div>
+          <div class="equipo-detalle">
+            <h3>Gurí 2012 v24</h3>
+            <ul>
+              <li>Motor Villa de 13 hp</li>
+              <li>Bomba de lodos 50AT</li>
+              <li>Vaina con morsa</li>
+              <li>Malacate manual para 1200 kg</li>
+              <li>Linga, grillete, roldana con rulemán</li>
+              <li>Torre para barras de 1500 mm (opcional 2000 mm)</li>
+              <li>Sistema de agua y mangueras (sin válvula de retención)</li>
+              <li>Junta de agua giratoria</li>
+              <li>Soporte universal</li>
+              <li>Embrague simple a polea</li>
+              <li>Eje pívot, ruedas macizas de 250 mm</li>
+              <li>4 patas regulables</li>
+            </ul>
+            <p>Con el correr de los años, el equipo Gurí 2012 v12 evolucionó hasta llegar al v24. Ha tenido innumerables mejoras: mayor robustez, rendimiento, facilidad de manejo y potencia.</p>
+            <p>Es ideal para iniciarse o como segundo equipo. Posee un eje pívot que se acciona desde los manubrios, facilitando su traslado. Aunque engaña por su tamaño, es un equipo pesado. Se puede izar a una camioneta con rampa, pero requiere al menos tres personas para levantarlo.</p>
+            <p>En el <a href="https://zaccariehijos.blogspot.com/2022/11/guri-2012-v22-pcia-de-corrientes.html" target="_blank">blog de Zaccari e Hijos</a> podés ver videos y audios de clientes operándolo. Nada mejor que la experiencia de un perforista para evaluarlo.</p>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+
+    <!-- Pie de página -->
+    <div class="pie pie-blanco">
+      <div class="pie-caja">
+        <div class="pie-logo-izq">
+          <img src="img/logo_izq.png" alt="Logo izquierdo">
+        </div>
+        <div class="pie-texto">
+          <p>Contacto: <a href="mailto:pzmaquinas82@gmail.com">pzmaquinas82@gmail.com</a></p>
+          <p>WhatsApp: +54 9 11-5120-0617</p>
+          <p>© 2025 Zaccari e Hijos - Todos los derechos reservados</p>
+        </div>
+        <div class="pie-logo-der">
+          <img src="img/logo_der.png" alt="Logo derecho">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+Genial Claudio 🙌, gracias por pegar el bloque real de tu menú lateral.
+
+Con ese HTML, ya podemos automatizar el cambio en todas las páginas de tu sitio con un script y dejar el commit listo.
+
+✅ Plan para actualizar el menú lateral
+
+Guardar el nuevo menú lateral en un archivo separado (ejemplo: menu_lateral.html) con solo el contenido del <aside> (sin el div id="border" completo).
+
+Ejemplo menu_lateral.html:
+
+<aside class="menu-lateral">
+  <ul>
+    <li><a href="torre_hoyadora.html">Torre para hoyadora</a></li>
+    <li><a href="piccolo_punzone.html">Piccolo Punzone</a></li>
+    <li><a href="guri_2012.html">Gurí 2012 v12</a></li>
+    <li><a href="guriv18.html">Gurí 2012 v18</a></li>
+    <li><a href="pampa.html">Pampa II v13</a></li>
+    <li><a href="pampa3.html">Pampa III v16</a></li>
+    <li><a href="3en1.html">3EN1 v13</a></li>
+    <li><a href="3en1v18.html">3EN1 v18</a></li>
+    <li><a href="leslie1_v14.html">Leslie I v14</a></li>
+    <li><a href="leslie2_15.html">Leslie II v15</a></li>
+    <li><a href="leslie3_v18.html">Leslie III v18</a></li>
+    <li><a href="hoyadora_unlp.html">Hoyadora UNLP</a></li>
+    <li><a href="linea_hidraulica.html">Línea hidráulica</a></li>
+    <li><a href="retroexcavadora.html">Retroexcavadora</a></li>
+    <li><a href="venta_partes.html">Venta de partes</a></li>
+    <li><a href="herramientas.html">Herramientas</a></li>
+    <li><a href="reenvio_stp.html">Reenvío STP</a></li>
+    <li><a href="archivos/catalogo2024.pdf" download>Catálogo 2024</a></li>
+    <li><a href="homologacion.html">Homologación</a></li>
+    <li><a href="oferta_limitada.html">Oferta limitada a stock disponible</a></li>
+    <li><a href="manuales.html">Manuales de perforación y otros</a></li>
+  </ul>
+</aside>
+
+
+Marcar en tus páginas el bloque que se reemplaza
+Para que el script sepa dónde cortar y pegar, lo ideal es envolver el bloque actual de cada página con comentarios, así:
+
+<!-- MENU-LATERAL-START -->
+<aside class="menu-lateral">
+  ...
+</aside>
+<!-- MENU-LATERAL-END -->
+
+
+Ejecutar el script en Git Bash (Windows)
+
+Guardá este script en update_menu.sh:
+
+#!/bin/bash
+for file in *.html; do
+  awk '
+    /<!-- MENU-LATERAL-START -->/ {print; system("cat menu_lateral.html"); skip=1; next}
+    /<!-- MENU-LATERAL-END -->/ {print; skip=0; next}
+    !skip
+  ' "$file" > tmp && mv tmp "$file"
+done
+
+git add .
+git commit -m "Actualización del menú lateral A2  1/10/2025"
+
+
+Después lo corrés con:
+
+bash update_menu.sh
+
+
+Esto va a:
+
+Reemplazar el menú en todos los .html.
+
+Hacer el commit con la leyenda que pediste:
+
+Actualización del menú lateral A2  1/10/2025
+
+
+👉 Pregunta: ¿querés que te prepare ya el menu_lateral.html con el contenido que pegaste tal cual, o pensás hacer cambios en los ítems del menú antes de actualizar todas las páginas?
+
+Tú dijiste:
+Sera para el próximo sitio, en el actual son como 20 paginas y no existen esas marcas. Para colocar eso lo hago manualmente. Pregunta se podria  colocar esto  el el codigo a subir para que en un futuro, si tengo que corregir, aplicarlo de esta manera
+ChatGPT Plus
+
+Exacto Claudio, esa es la idea 💡.
+
+En el sitio actual como no tenés las marcas (<!-- MENU-LATERAL-START --> … <!-- MENU-LATERAL-END -->), no hay forma automática de detectar el bloque sin riesgo de romper algo, así que ahí toca hacerlo manual.
+
+Pero 👉 para el próximo sitio conviene que desde el inicio coloques esas marcas.
+Así en el futuro, si querés modificar el menú, con un solo script actualizás las 20, 50 o 100 páginas de una sola vez.
+
+📌 Cómo hacerlo en el nuevo código
+
+Cuando armes el próximo sitio, escribí siempre el menú así:
+
+<!-- MENU-LATERAL-START -->
+<aside class="menu-lateral">
+  <ul>
+    <li><a href="torre_hoyadora.html">Torre para hoyadora</a></li>
+    <li><a href="piccolo_punzone.html">Piccolo Punzone</a></li>
+    <li><a href="guri_2012.html">Gurí 2012 v12</a></li>
+    <li><a href="guriv18.html">Gurí 2012 v18</a></li>
+    <li><a href="pampa.html">Pampa II v13</a></li>
+    <li><a href="pampa3.html">Pampa III v16</a></li>
+    <li><a href="3en1.html">3EN1 v13</a></li>
+    <li><a href="3en1v18.html">3EN1 v18</a></li>
+    <li><a href="leslie1_v14.html">Leslie I v14</a></li>
+    <li><a href="leslie2_15.html">Leslie II v15</a></li>
+    <li><a href="leslie3_v18.html">Leslie III v18</a></li>
+    <li><a href="hoyadora_unlp.html">Hoyadora UNLP</a></li>
+    <li><a href="linea_hidraulica.html">Línea hidráulica</a></li>
+    <li><a href="retroexcavadora.html">Retroexcavadora</a></li>
+    <li><a href="venta_partes.html">Venta de partes</a></li>
+    <li><a href="herramientas.html">Herramientas</a></li>
+    <li><a href="reenvio_stp.html">Reenvío STP</a></li>
+    <li><a href="archivos/catalogo2024.pdf" download>Catálogo 2024</a></li>
+    <li><a href="homologacion.html">Homologación</a></li>
+    <li><a href="oferta_limitada.html">Oferta limitada a stock disponible</a></li>
+    <li><a href="manuales.html">Manuales de perforación y otros</a></li>
+  </ul>
+</aside>
+<!-- MENU-LATERAL-END -->
+
+📌 Ventajas
+
+Cada vez que necesites actualizar, solo editás menu_lateral.html y corrés el script.
+
+El commit queda documentado, por ejemplo:
+
+Actualización del menú lateral A2  1/10/2025
+
+
+Se evitan errores de copiar/pegar en 20 archivos.
+
+👉 Mi consejo: en el nuevo sitio que estás armando, ya metemos esas marcas desde el inicio.
+¿Querés que cuando te prepare el index.html de ejemplo con el nuevo CSS te lo deje armado con esas marcas de menú lateral para que quede listo para el futuro?

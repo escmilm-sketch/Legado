@@ -1,0 +1,583 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<mm_report>
+	<mm_reportname>	ResultsReport.xml</mm_reportname>
+	<mm_reportdate>01/21/06 03:04:35</mm_reportdate>
+	<mm_reportlocation>D:\\WEB01 – Sitio Provisorio de Trabajo\bitacora\</mm_reportlocation>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>71</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with valid ALT  [S508 a/WCAG 1.1 P1]   -- manual -- ALT of image is the empty string "".]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>22</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with equivalent ALT  [S508 a/WCAG 1.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>23</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with equivalent ALT  [S508 a/WCAG 1.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>35</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with equivalent ALT  [S508 a/WCAG 1.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>6</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>22</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with valid LONGDESC  [S508 a/WCAG 1.1 P1]   -- INCORRECTO -- Invalid LONGDESC attribute: Mentioned file does not exist.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>6</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>23</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG with valid LONGDESC  [S508 a/WCAG 1.1 P1]   -- INCORRECTO -- Invalid LONGDESC attribute: Mentioned file does not exist.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>35</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG needs LONGDESC  [S508 a/WCAG 1.1 P1]   -- manual -- Non-spacer image may need a LONGDESC attribute.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>71</mm_linenumber>
+		<mm_description><![CDATA[Non spacer IMG needs LONGDESC  [S508 a/WCAG 1.1 P1]   -- manual -- Non-spacer image may need a LONGDESC attribute.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Color is not essential  [S508 c/WCAG 2.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Colors are visible  [S508 c/WCAG 2.2 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>72</mm_linenumber>
+		<mm_description><![CDATA[Style sheets should not be necessary  [S508 d/WCAG 6.1 P1]   -- manual -- The page uses style sheets to present its content. Somebrowsers might be unable to understand style sheets, or theprovided style sheets may conflict with user-specified styleinformation.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>10</mm_linenumber>
+		<mm_description><![CDATA[Style sheets should not be necessary  [S508 d/WCAG 6.1 P1]   -- manual -- The page uses style sheets to present its content. Somebrowsers might be unable to understand style sheets, or theprovided style sheets may conflict with user-specified styleinformation.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>12</mm_linenumber>
+		<mm_description><![CDATA[Style sheets should not be necessary  [S508 d/WCAG 6.1 P1]   -- manual -- The page uses style sheets to present its content. Somebrowsers might be unable to understand style sheets, or theprovided style sheets may conflict with user-specified styleinformation.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>19</mm_linenumber>
+		<mm_description><![CDATA[Skip repetitive links  [S508 o/WCAG 13.6 P1]   -- manual -- Check if a textual link is present for skipping navigationallinks that are repeated in all the pages.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>19</mm_linenumber>
+		<mm_description><![CDATA[Use clear language for site's content  [WCAG 14.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>19</mm_linenumber>
+		<mm_description><![CDATA[Clarify natural language usage  [WCAG 4.1 P1]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>22</mm_linenumber>
+		<mm_description><![CDATA[Ensure sufficient contrast between foreground and background colors  [WCAG 2.2 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>23</mm_linenumber>
+		<mm_description><![CDATA[Ensure sufficient contrast between foreground and background colors  [WCAG 2.2 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>35</mm_linenumber>
+		<mm_description><![CDATA[Ensure sufficient contrast between foreground and background colors  [WCAG 2.2 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>71</mm_linenumber>
+		<mm_description><![CDATA[Ensure sufficient contrast between foreground and background colors  [WCAG 2.2 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Ensure sufficient contrast between foreground and background colors  [WCAG 2.2 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>22</mm_linenumber>
+		<mm_description><![CDATA[Use markup rather than images  [WCAG 3.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>23</mm_linenumber>
+		<mm_description><![CDATA[Use markup rather than images  [WCAG 3.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>35</mm_linenumber>
+		<mm_description><![CDATA[Use markup rather than images  [WCAG 3.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>71</mm_linenumber>
+		<mm_description><![CDATA[Use markup rather than images  [WCAG 3.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Use markup rather than images  [WCAG 3.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Document should be valid with respect to published grammars  [WCAG 3.2 P2]   -- manual -- Use the Markup Validator to check this page.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Document should be valid with respect to published grammars  [WCAG 3.2 P2]   -- manual -- Use a CSS validator to check the CSS style sheets linked by the page.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>6</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>12</mm_linenumber>
+		<mm_description><![CDATA[Use relative units in CSS  [WCAG 3.4 P2]   -- INCORRECTO -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>6</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>10</mm_linenumber>
+		<mm_description><![CDATA[Use relative units in CSS  [WCAG 3.4 P2]   -- INCORRECTO -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>10</mm_linenumber>
+		<mm_description><![CDATA[Use relative units in CSS  [WCAG 3.4 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>10</mm_linenumber>
+		<mm_description><![CDATA[Use relative units in CSS box properties  [WCAG 3.4 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Use header elements according to specification  [WCAG 3.5 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Mark up quotations  [WCAG 3.7 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Use last appropriate W3C technologies  [WCAG 11.1 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Divide information into appropriate manageable groups  [WCAG 12.3 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>26</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>27</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>28</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>29</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>30</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>34</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>41</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>42</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>43</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>44</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>45</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>46</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>47</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>48</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>49</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>50</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>51</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>52</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>53</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>54</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>55</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>56</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>57</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>59</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>61</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>62</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>63</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>65</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>66</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>68</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>76</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>76</mm_linenumber>
+		<mm_description><![CDATA[Clearly identify the target of each link  [WCAG 13.1 P2]   -- manual -- The TITLE attribute is missing in link text element.]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>6</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Provide metadata to pages and sites  [WCAG 13.2 P2]   -- INCORRECTO -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Provide information about site organization  [WCAG 13.3 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>7</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>2</mm_linenumber>
+		<mm_description><![CDATA[Use navigation mechanisms appropriately  [WCAG 13.4 P2]   -- manual -- ]]></mm_description>
+		<mm_reportedby>Accesibilidad</mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>9</mm_statusicon>
+		<mm_displaystr><![CDATA[Templates\plantilla 1.dwt]]></mm_displaystr>
+		<mm_file>file:///D|/WEB01 – Sitio Provisorio de Trabajo/Templates/plantilla 1.dwt</mm_file>
+		<mm_linenumber>34</mm_linenumber>
+		<mm_description><![CDATA[Advertencia: Etiqueta vacía: < A>]]></mm_description>
+		<mm_reportedby>Etiquetas vacías que pueden borrarse</mm_reportedby>
+	</mm_reportitem>
+</mm_report>

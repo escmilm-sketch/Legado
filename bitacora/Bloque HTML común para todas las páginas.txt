@@ -1,0 +1,56 @@
+<!-- Encabezado -->
+<div class="encabezado">
+  <img src="img/banner.jpg" alt="Banner Zaccari e Hijos">
+</div>
+
+<!-- Menú superior -->
+<div class="menu-superior">
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="https://zaccariehijos.blogspot.com/" target="_blank" rel="noopener">Blog</a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=100070206045047" target="_blank" rel="noopener">Facebook</a></li>
+    <li><a href="consultas.html">Consultas</a></li>
+    <li><a href="como_llegar.html">Cómo llegar</a></li>
+    <li><a href="archivos/catalogo_2024.pdf" download>Catálogo 2024</a></li>
+  </ul>
+</div>
+
+<!-- Menú lateral -->
+<div class="menu-lateral">
+  <ul>
+    <li><a href="torre_hoyadora.html">Torre para hoyadora</a></li>
+    <li><a href="piccolo_punzone.html">Piccolo Punzone</a></li>
+    <li><a href="guri_2012.html">Gurí 2012 versiones</a></li>
+    <li><a href="pampa.html">Pampa versiones</a></li>
+    <li><a href="3en1.html">3EN1 versiones</a></li>
+    <li><a href="leslie1_v14.html">Leslie I v14</a></li>
+    <li><a href="leslie2_v15.html">Leslie II v15</a></li>
+    <li><a href="leslie3_v18.html">Leslie III v18</a></li>
+    <li><a href="hoyadora_unlp.html">Hoyadora UNLP</a></li>
+    <li><a href="linea_hidraulica.html">Línea hidráulica</a></li>
+    <li><a href="retroexcavadora.html">Retroexcavadora</a></li>
+    <li><a href="venta_partes.html">Venta de partes</a></li>
+    <li><a href="herramientas.html">Herramientas</a></li>
+    <li><a href="reenvio_stp.html">Reenvío STP</a></li>
+    <li><a href="homologacion.html">Homologación</a></li>
+    <li><a href="oferta_limitada.html">Oferta limitada</a></li>
+    <li><a href="manuales.html">Manuales</a></li>
+  </ul>
+</div>
+
+<!-- Pie de página -->
+<div class="pie pie-blanco">
+  <div class="pie-caja">
+    <div class="pie-logo-izq">
+      <img src="img/logo_izq.png" alt="Logo izquierdo">
+    </div>
+    <div class="pie-texto">
+      <p>Contacto: <a href="mailto:pzmaquinas82@gmail.com">pzmaquinas82@gmail.com</a></p>
+      <p>WhatsApp: +54 9 11-5120-0617</p>
+      <p>© 2025 Zaccari e Hijos - Todos los derechos reservados</p>
+    </div>
+    <div class="pie-logo-der">
+      <img src="img/logo_der.png" alt="Logo derecho">
+    </div>
+  </div>
+</div>

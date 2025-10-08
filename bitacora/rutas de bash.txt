@@ -1,0 +1,28 @@
+✅ 1. Ingresar al repositorio Legado y a la rama main
+bash
+cd ~/Legado
+git checkout main
+Si el repositorio está en otra ruta, reemplazá ~/Legado por la ruta real, por ejemplo:
+
+bash
+cd "C:/Users/Usuario/Documents/WEB03 – Sitio Provisorio de Trabajo"
+🧹 2. Eliminar carpetas innecesarias o con errores
+Por ejemplo, si querés eliminar carpetas como backup/, bitacora/, copylot/, o cualquier otra que ya no uses:
+
+bash
+git rm -r backup bitacora copylot
+Podés agregar más nombres separados por espacio si hay otras carpetas que querés borrar.
+
+✅ 3. Confirmar los cambios
+bash
+git commit -m "Limpieza de carpetas innecesarias para subir estructura corregida"
+🚀 4. Subir los cambios al repositorio remoto
+bash
+git push origin main
+📦 5. Subir las carpetas corregidas y páginas terminadas
+Una vez que limpiaste el repositorio, copiá las carpetas nuevas (por ejemplo img/guri/, css/, etc.) y las páginas como index.html, como_llegar.html, guri_2012.html al proyecto local. Luego:
+
+bash
+git add index.html como_llegar.html guri_2012.html css/ img/
+git commit -m "Subo estructura corregida y páginas terminadas"
+git push origin main

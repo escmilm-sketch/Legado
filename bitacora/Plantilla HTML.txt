@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+<!-- Título claro y técnico -->
+<title>nombre  de la publicacion | especificasion - Zaccari e Hijos</title>
+
+<!-- Descripción rica para buscadores -->
+<meta name="description" content="denominacion de Zaccari e Hijos: caracteristica, caracteristica, caracteristica. caracteristica. Ccaracteristica, icaracteristica. caracteristica.">
+
+<!-- Palabras clave relevantes -->
+<meta name="keywords" content="palabras clave">
+
+<!-- Autor institucional -->
+<meta name="author" content="Zaccari e Hijos">
+
+<!-- Indexación y compatibilidad -->
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div id="wrap">
+
+    <!-- Encabezado -->
+    <div class="encabezado">
+      <img src="img/banner.jpg" alt="Banner Zaccari e Hijos">
+    </div>
+
+    <!-- Menú superior -->
+    <div class="menu-superior">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="https://zaccariehijos.blogspot.com/" target="_blank" rel="noopener">Blog</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100070206045047" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="consultas.html">Consultas</a></li>
+        <li><a href="como_llegar.html">Cómo llegar</a></li>
+        <li><a href="archivos/catalogo_2024.pdf" download>Catálogo 2024</a></li>
+      </ul>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div id="border">
+
+
+   <!-- Menú lateral + contenido -->
+    <div id="border">
+      <aside class="menu-lateral">
+        <ul>
+          <li><a href="torre_hoyadora.html">Torre para hoyadora</a></li>
+          <li><a href="piccolo_punzone.html">Piccolo Punzone</a></li>
+          <li><a href="guri_2012.html">Gurí 2012 v12</a></li>
+          <li><a href="pampa.html">Pampa II v13</a></li>
+          <li><a href="3en1.html">3EN1 v13</a></li>
+          <li><a href="leslie1_v14.html">Leslie I v14</a></li>
+          <li><a href="leslie2_15.html">Leslie II v15</a></li>
+          <li><a href="leslie3_v18.html">Leslie III v18</a></li>
+          <li><a href="hoyadora_unlp.html">Hoyadora UNLP</a></li>
+          <li><a href="linea_hidraulica.html">Línea hidráulica</a></li>
+          <li><a href="retroexcavadora.html">Retroexcavadora</a></li>
+          <li><a href="venta_partes.html">Venta de partes</a></li>
+          <li><a href="herramientas.html">Herramientas</a></li>
+          <li><a href="reenvio_stp.html">Reenvío STP</a></li>
+          <li><a href="archivos/catalogo_2024.pdf" download>Catálogo 2024</a></li>
+          <li><a href="homologacion.html">Homologación</a></li>
+          <li><a href="oferta_limitada.html">Oferta limitada a stock disponible</a></li>
+          <li><a href="manuales.html">Manuales de perforación y otros</a></li>
+        </ul>
+      </aside>
+	  
+
+      <!-- Contenido principal -->
+      <main>
+        <div class="contenido-dos-columnas">
+          <div class="columna-izquierda">
+            <img src="img/equipo.jpg" alt="Equipo artesanal">
+          </div>
+          <div class="columna-derecha">
+            <h2>Torre para Hoyadora</h2>
+            <p>Esta página está en construcción. Pronto encontrará aquí toda la información sobre nuestra torre para hoyadora, sus versiones, especificaciones y disponibilidad.</p>
+          </div>
+        </div>
+      </main>
+
+    </div>
+
+    <!-- Pie de página -->
+    <div class="pie pie-blanco">
+      <div class="pie-caja">
+        <div class="pie-logo-izq">
+          <img src="img/logo_izq.png" alt="Logo izquierdo">
+        </div>
+        <div class="pie-texto">
+          <p>Contacto: <a href="mailto:zaccariehijos@gmail.com">zaccariehijos@gmail.com</a></p>
+          <p>WhatsApp: +54 9 11 1234-5678</p>
+          <p>© 2025 Zaccari e Hijos - Todos los derechos reservados</p>
+        </div>
+        <div class="pie-logo-der">
+          <img src="img/logo_der.png" alt="Logo derecho">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

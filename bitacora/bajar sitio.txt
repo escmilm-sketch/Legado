@@ -1,0 +1,43 @@
+Genial, Claudio. Ya que vamos a dejar el repositorio limpio y automatizado, te dejo todo listo para que lo ejecutes sin complicaciones.
+
+🧹 Limpieza total del repositorio
+Desde Git Bash, ejecutá:
+
+bash
+cd ~/Legado
+git rm -r *
+git commit -m "Limpieza total del repositorio para nueva estructura"
+git push origin main
+Esto elimina todos los archivos del repositorio y deja el historial intacto, listo para recibir la nueva versión.
+
+⚙️ Script automatizado: subir_sitio.sh
+Este script copia los archivos corregidos desde tu carpeta de trabajo y los sube al repositorio:
+
+bash
+#!/bin/bash
+
+# Rutas
+ORIGEN="/c/Users/Usuario/Documents/WEB03 – Sitio Provisorio de Trabajo"
+DESTINO="/c/Users/Usuario/Documents/Legado"
+
+# Copiar archivos corregidos
+cp "$ORIGEN/index.html" "$DESTINO/"
+cp "$ORIGEN/como_llegar.html" "$DESTINO/"
+cp "$ORIGEN/guri_2012.html" "$DESTINO/"
+cp -r "$ORIGEN/css" "$DESTINO/"
+cp -r "$ORIGEN/img" "$DESTINO/"
+
+# Ir al repositorio
+cd "$DESTINO"
+
+# Subir al repositorio
+git add .
+git commit -m "Subo estructura corregida y páginas actualizadas"
+git push origin main
+🧠 ¿Cómo usarlo?
+Guardá el script como subir_sitio.sh en tu escritorio o dentro de la carpeta Legado.
+
+Abrí Git Bash y ejecutá:
+
+bash
+bash subir_sitio.sh

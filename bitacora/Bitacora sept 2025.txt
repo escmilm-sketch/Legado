@@ -1,0 +1,272 @@
+
+
+🧩 Hoja de ruta táctica para entorno Legado
+1. 🧱 Clonación quirúrgica del repositorio
+bash
+git clone https://github.com/escmilm-sketch/Legado.git
+cd Legado
+2. 🧠 Configuración de identidad Git
+bash
+git config --global user.name "Claudio"
+git config --global user.email "tu-email@ejemplo.com"
+3. 🧩 Alias táctiles en .bashrc
+🔧 Notepad++ desde Bash
+bash
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+📂 Abrir carpetas clave
+bash
+alias openbitacora='explorer bitacora'
+alias openmanuales='explorer manuales'
+alias openlegado='explorer .'
+🌐 Abrir sitio publicado
+bash
+alias viewlegado='cmd //c start https://escmilm-sketch.github.io/Legado'
+🚀 Subir cambios con mensaje dinámico
+bash
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "
+  read mensaje
+  git add .
+  git commit -m "$mensaje"
+  git push origin main && cmd //c start https://escmilm-sketch.github.io/Legado
+}
+🧪 Validaciones previas
+git status → Verifica si hay cambios sin subir.
+
+git remote -v → Confirma el origen remoto.
+
+ls → Revisión rápida de estructura.
+
+🛡️ Recomendaciones de blindaje
+Guardá una copia del .bashrc en bitacora/ como respaldo.
+
+Documentá alias y funciones en codigo de bash.txt.
+
+Usá openbitacora para registrar cada iteración técnica.
+
+Validá despliegue con viewlegado tras cada push.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Perfecto, Claudio. Acá tenés el contenido quirúrgico listo para copiar y guardar como respaldo en un archivo llamado bashrc_legado_respaldo.txt, por ejemplo dentro de bitacora/ o codigo de bash.txt. Este bloque te permite restaurar alias, funciones y accesos táctiles en cualquier equipo:
+
+🧩 Respaldo .bashrc para entorno Legado
+bash
+# Alias principal para abrir Notepad++
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+
+# Alias para abrir archivos clave del sitio
+alias npindex='np index.html'
+alias npstyle='np style_nuevo.css'
+alias nppampa='np pampa.html'
+alias nppiccolo='np piccolo_punzone.html'
+alias npguri='np guri_2012.html'
+alias npsubir='np "script automatico subir sitio.txt"'
+alias npmigrar='np migrar_a_raiz.sh'
+alias npbash='np "codigo de bash.txt"'
+alias nprenombrar='np "script automatico renobrar sitio y carpetas.txt"'
+alias npall='np index.html && np pampa.html && np piccolo_punzone.html && np guri_2012.html && np style_nuevo.css'
+
+# Alias para abrir carpetas clave
+alias openlegado='explorer .'
+alias openbitacora='explorer bitacora'
+alias opencatalogo='explorer catalogozaccari'
+alias openmanuales='explorer manuales'
+alias openimg='explorer img'
+alias openpampa='explorer pampa'
+alias openpiccolo='explorer piccolo'
+alias openguri='explorer guri'
+alias opentorre='explorer torreguia'
+alias openexcavadora='explorer excavadora'
+alias openhoyadora='explorer hoyadora'
+alias openleslie1='explorer leslie1'
+alias openleslie2='explorer leslie2'
+alias openleslie3='explorer leslie3'
+
+# Alias para abrir archivos en navegador
+alias viewindex='cmd //c start index.html'
+alias viewpampa='cmd //c start pampa.html'
+alias viewpiccolo='cmd //c start piccolo_punzone.html'
+alias viewguri='cmd //c start guri_2012.html'
+alias viewoferta='cmd //c start oferta_limitada.html'
+alias viewsite='cmd //c start index.html'
+alias viewlegado='cmd //c start https://escmilm-sketch.github.io/Legado'
+
+# Función para subir cambios con mensaje dinámico y validación visual
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "
+  read mensaje
+  git add .
+  git commit -m "$mensaje"
+  git push origin main && cmd //c start https://escmilm-sketch.github.io/Legado
+}
+📌 Sugerencia táctica: guardá este bloque como bashrc_legado_respaldo.txt dentro de bitacora/ o codigo de bash.txt, y mantenelo sincronizado con cada iteración. Si el entorno se rompe, solo necesitás copiar este contenido al final de ~/.bashrc y ejecutar:
+
+bash
+source ~/.bashrc
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Perfecto, Claudio. Acá tenés la versión comentada línea por línea del respaldo .bashrc_legado_respaldo.txt, pensada para que vos y tu señora puedan entender cada alias y función como parte del legado técnico compartido:
+
+🧩 Respaldo .bashrc comentado para entorno Legado
+bash
+# 📝 Abre Notepad++ desde consola
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+
+# 📄 Abre archivos clave del sitio para edición rápida
+alias npindex='np index.html'                     # Página principal
+alias npstyle='np style_nuevo.css'                # Estilos y layout
+alias nppampa='np pampa.html'                     # Página pampa
+alias nppiccolo='np piccolo_punzone.html'         # Página piccolo
+alias npguri='np guri_2012.html'                  # Página guri
+alias npsubir='np "script automatico subir sitio.txt"'  # Script de subida
+alias npmigrar='np migrar_a_raiz.sh'              # Script de migración
+alias npbash='np "codigo de bash.txt"'            # Código de comandos
+alias nprenombrar='np "script automatico renobrar sitio y carpetas.txt"'  # Renombrado
+alias npall='np index.html && np pampa.html && np piccolo_punzone.html && np guri_2012.html && np style_nuevo.css'  # Todo junto
+
+# 📂 Abre carpetas clave del proyecto en el explorador
+alias openlegado='explorer .'                     # Carpeta raíz
+alias openbitacora='explorer bitacora'            # Registro técnico
+alias opencatalogo='explorer catalogozaccari'     # Catálogo
+alias openmanuales='explorer manuales'            # Manuales
+alias openimg='explorer img'                      # Imágenes
+alias openpampa='explorer pampa'                  # Carpeta pampa
+alias openpiccolo='explorer piccolo'              # Carpeta piccolo
+alias openguri='explorer guri'                    # Carpeta guri
+alias opentorre='explorer torreguia'              # Carpeta torre
+alias openexcavadora='explorer excavadora'        # Carpeta excavadora
+alias openhoyadora='explorer hoyadora'            # Carpeta hoyadora
+alias openleslie1='explorer leslie1'              # Carpeta leslie1
+alias openleslie2='explorer leslie2'              # Carpeta leslie2
+alias openleslie3='explorer leslie3'              # Carpeta leslie3
+
+# 🌐 Abre archivos HTML en navegador para validar visualmente
+alias viewindex='cmd //c start index.html'        # Página principal local
+alias viewpampa='cmd //c start pampa.html'        # Página pampa local
+alias viewpiccolo='cmd //c start piccolo_punzone.html'  # Página piccolo local
+alias viewguri='cmd //c start guri_2012.html'      # Página guri local
+alias viewoferta='cmd //c start oferta_limitada.html'  # Página oferta
+alias viewsite='cmd //c start index.html'         # Sitio local desde index
+alias viewlegado='cmd //c start https://escmilm-sketch.github.io/Legado'  # Sitio publicado
+
+# 🚀 Función para subir cambios con mensaje personalizado y validación visual
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "                # Solicita mensaje
+  read mensaje                                   # Lo guarda en variable
+  git add .                                      # Agrega todos los cambios
+  git commit -m "$mensaje"                       # Crea commit con mensaje
+  git push origin main &&                        # Sube al repositorio
+  cmd //c start https://escmilm-sketch.github.io/Legado  # Abre sitio publicado
+}
+📌 Guardalo como bashrc_legado_respaldo.txt dentro de bitacora/ o codigo de bash.txt. Si el entorno se rompe, solo copiás este bloque al final de ~/.bashrc y ejecutás:
+
+bash
+source ~/.bashrc
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Perfecto, Claudio. Acá tenés la versión simplificada y visualmente clara del respaldo .bashrc_legado_respaldo.txt, pensada para imprimir, compartir o tener a mano como guía táctica. Está organizada por secciones, con íconos y descripciones breves para facilitar el uso compartido:
+
+🧩 Guía visual de alias y funciones para entorno Legado
+✏️ Edición rápida con Notepad++
+bash
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+Usalo así:
+
+bash
+np index.html
+np style_nuevo.css
+📂 Abrir carpetas clave del proyecto
+bash
+alias openlegado='explorer .'
+alias openbitacora='explorer bitacora'
+alias openmanuales='explorer manuales'
+alias openpampa='explorer pampa'
+alias openpiccolo='explorer piccolo'
+alias openguri='explorer guri'
+🌐 Validar visualmente en navegador
+bash
+alias viewindex='cmd //c start index.html'
+alias viewlegado='cmd //c start https://escmilm-sketch.github.io/Legado'
+🚀 Subir cambios con mensaje personalizado
+bash
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "
+  read mensaje
+  git add .
+  git commit -m "$mensaje"
+  git push origin main && cmd //c start https://escmilm-sketch.github.io/Legado
+}
+Usalo así:
+
+bash
+subirlegado
+Te pedirá el mensaje, subirá los cambios y abrirá el sitio publicado.
+
+📌 Sugerencia táctica: guardá este bloque como bashrc_legado_respaldo.txt dentro de bitacora/ o codigo de bash.txt. Si el entorno se rompe, copiás todo al final de ~/.bashrc y ejecutás:
+
+bash
+source ~/.bashrc
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Perfecto, Claudio. Acá tenés la versión en HTML simplificada, lista para guardar como guía local, abrir en navegador o compartir como parte del legado técnico. Podés guardarla como guia_alias_legado.html dentro de bitacora/ o manuales/.
+
+🧩 Guía HTML — Alias y Funciones para Entorno Legado
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guía de Alias — Legado Técnico</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+    h1, h2 { color: #333; }
+    code { background: #eaeaea; padding: 2px 6px; border-radius: 4px; }
+    .bloque { background: #fff; padding: 15px; margin-bottom: 20px; border-left: 4px solid #0078D7; }
+  </style>
+</head>
+<body>
+  <h1>🧩 Guía de Alias y Funciones — Proyecto Legado</h1>
+
+  <div class="bloque">
+    <h2>✏️ Edición rápida con Notepad++</h2>
+    <p><code>alias np='"/c/Program Files/Notepad++/notepad++.exe"'</code></p>
+    <p>Usar como: <code>np index.html</code>, <code>np style_nuevo.css</code></p>
+  </div>
+
+  <div class="bloque">
+    <h2>📂 Abrir carpetas clave</h2>
+    <p><code>openlegado</code> → Carpeta raíz</p>
+    <p><code>openbitacora</code>, <code>openmanuales</code>, <code>openpampa</code>, etc.</p>
+  </div>
+
+  <div class="bloque">
+    <h2>🌐 Validar visualmente en navegador</h2>
+    <p><code>viewindex</code> → Abre <code>index.html</code> local</p>
+    <p><code>viewlegado</code> → Abre sitio publicado: <a href="https://escmilm-sketch.github.io/Legado" target="_blank">Legado en GitHub Pages</a></p>
+  </div>
+
+  <div class="bloque">
+    <h2>🚀 Subir cambios con mensaje personalizado</h2>
+    <pre><code>
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "
+  read mensaje
+  git add .
+  git commit -m "$mensaje"
+  git push origin main && cmd //c start https://escmilm-sketch.github.io/Legado
+}
+    </code></pre>
+    <p>Usar como: <code>subirlegado</code></p>
+  </div>
+
+  <footer>
+    <p>📌 Guardar este archivo como <strong>guia_alias_legado.html</strong> en <code>bitacora/</code> o <code>manuales/</code>. Abrir en navegador para consulta rápida.</p>
+  </footer>
+</body>
+</html>
+Este archivo es completamente local, no depende de conexión ni de entorno activo. ¿Querés que prepare una versión imprimible en estilo hoja A4 o una variante con botones táctiles para abrir desde escritorio? También puedo ayudarte a integrarlo como parte de tu documentación técnica compartida con tu señora.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

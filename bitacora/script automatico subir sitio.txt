@@ -1,0 +1,51 @@
+Perfecto, Claudio. Vamos a hacer una limpieza total del repositorio Legado y dejarlo listo para subir la nueva estructura corregida. Después te armo un script para automatizar el proceso de carga. Vamos por partes:
+
+🧹 1. Eliminar todo del repositorio local y remoto
+✅ Desde Bash (local)
+bash
+cd ~/Legado
+git rm -r *
+git commit -m "Limpieza total del repositorio para nueva estructura"
+git push origin main
+Esto elimina todos los archivos y carpetas del repositorio local y remoto, excepto la carpeta .git que mantiene el historial.
+
+⚙️ 2. Automatizar el proceso de carga
+Te armo un script Bash que:
+
+Copia los archivos corregidos desde tu carpeta de trabajo
+
+Agrega los cambios al repositorio
+
+Hace el commit con un mensaje automático
+
+Empuja los cambios a main
+
+🧾 Script: subir_sitio.sh
+bash
+#!/bin/bash
+
+# Ruta de tu carpeta de trabajo
+ORIGEN="C:/Users/Usuario/Documents/WEB03 – Sitio Provisorio de Trabajo"
+DESTINO="~/Legado"
+
+# Copiar archivos corregidos
+cp "$ORIGEN/index.html" "$DESTINO/"
+cp "$ORIGEN/como_llegar.html" "$DESTINO/"
+cp "$ORIGEN/guri_2012.html" "$DESTINO/"
+cp -r "$ORIGEN/css" "$DESTINO/"
+cp -r "$ORIGEN/img" "$DESTINO/"
+
+# Ir al repositorio
+cd "$DESTINO"
+
+# Agregar y subir cambios
+git add .
+git commit -m "Subo estructura corregida y páginas actualizadas"
+git push origin main
+🧠 ¿Cómo usarlo?
+Guardá el script como subir_sitio.sh
+
+Abrí Bash y ejecutá:
+
+bash
+bash subir_sitio.sh

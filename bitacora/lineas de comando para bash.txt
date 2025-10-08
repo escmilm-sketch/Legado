@@ -1,0 +1,222 @@
+Links importantes 2025
+
+https://github.com/escmilm-sketch/Legado
+
+https://github.com/escmilm-sketch/Legado/actions/runs/17960286757
+https://github.com/escmilm-sketch
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Lineas de comando 🧩 Alias táctiles para Git Bash + Notepad++
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Alias principal para abrir Notepad++
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+
+# Alias para abrir archivos clave del sitio
+alias npindex='np index.html'
+alias npstyle='np style_nuevo.css'
+alias nppampa='np pampa.html'
+alias nppiccolo='np piccolo_punzone.html'
+alias npguri='np guri_2012.html'
+
+# Alias para abrir scripts quirúrgicos
+alias npsubir='np "script automatico subir sitio.txt"'
+alias npmigrar='np migrar_a_raiz.sh'
+alias npbash='np "codigo de bash.txt"'
+alias nprenombrar='np "script automatico renobrar sitio y carpetas.txt"'
+
+# Alias para abrir todos los .html clave juntos (requiere que Notepad++ esté configurado para múltiples pestañas)
+alias npall='np index.html && np pampa.html && np piccolo_punzone.html && np guri_2012.html && np style_nuevo.css'
+
+
+✅ Activación
+Pegá este bloque al final de tu ~/.bashrc:
+
+bash
+nano ~/.bashrc
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+Ahora podés usar comandos como:
+
+bash
+npindex        # Abre index.html
+npstyle        # Abre style_nuevo.css
+npsubir        # Abre el script de subida
+npall          # Abre todo junto
+
+🧩 Alias para abrir carpetas táctilmente
+bash
+# Abrir carpeta raíz del proyecto Legado
+alias openlegado='explorer .'
+
+# Abrir carpetas técnicas clave
+alias openbitacora='explorer bitacora'
+alias opencatalogo='explorer catalogozaccari'
+alias openmanuales='explorer manuales'
+alias openimg='explorer img'
+alias openpampa='explorer pampa'
+alias openpiccolo='explorer piccolo'
+alias openguri='explorer guri'
+alias opentorre='explorer torreguia'
+alias openexcavadora='explorer excavadora'
+alias openhoyadora='explorer hoyadora'
+alias openleslie1='explorer leslie1'
+alias openleslie2='explorer leslie2'
+alias openleslie3='explorer leslie3'
+✅ Activación
+Abrí tu archivo .bashrc:
+
+bash
+nano ~/.bashrc
+Pegá el bloque al final.
+
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+Ahora podés usar comandos como:
+
+bash
+openbitacora      # Abre carpeta bitacora
+openmanuales      # Abre carpeta manuales
+openlegado        # Abre carpeta raíz del legado
+
+🧩 Alias para abrir archivos en navegador
+bash
+# Abrir index.html en navegador predeterminado
+alias viewindex='cmd //c start index.html'
+
+# Abrir pampa.html
+alias viewpampa='cmd //c start pampa.html'
+
+# Abrir piccolo_punzone.html
+alias viewpiccolo='cmd //c start piccolo_punzone.html'
+
+# Abrir guri_2012.html
+alias viewguri='cmd //c start guri_2012.html'
+
+# Abrir oferta_limitada.html
+alias viewoferta='cmd //c start oferta_limitada.html'
+
+# Abrir todo el sitio desde index
+alias viewsite='cmd //c start index.html'
+✅ Activación
+Abrí tu archivo .bashrc:
+
+bash
+nano ~/.bashrc
+Pegá el bloque al final.
+
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+🧪 Uso táctil desde consola
+bash
+viewindex       # Abre index.html en navegador
+viewpampa       # Abre pampa.html
+viewsite        # Abre todo el sitio des
+
+🧩 Alias para abrir el sitio publicado en navegador
+bash
+alias viewlegado='cmd //c start https://escmilm-sketch.github.io/Legado'
+✅ Activación
+Abrí tu archivo .bashrc:
+
+bash
+nano ~/.bashrc
+Pegá la línea al final.
+
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+🧪 Uso táctil desde consola
+bash
+viewlegado       # Abre el sitio publicado en navegador
+Este alias te permite validar el despliegue final sin copiar/pegar la URL. Ideal para revisar correcciones en style_nuevo.css, layouts como pampa.html, y confirmar que no haya rutas rotas.
+
+🧩 Alias para commit + push quirúrgico
+bash
+# Editar, validar y subir cambios con mensaje personalizado
+alias subirlegado='git add . && git commit -m "Actualización quirúrgica desde consola" && git push origin main'
+✅ Activación
+Abrí tu archivo .bashrc:
+
+bash
+nano ~/.bashrc
+Pegá la línea al final.
+
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+🧪 Uso táctil desde consola
+bash
+subirlegado       # Agrega, commitea y sube todo al repositorio remoto
+
+🧩 Función Bash: subirlegado
+bash
+subirlegado() {
+  echo -n "📝 Mensaje de commit: "
+  read mensaje
+  git add .
+  git commit -m "$mensaje"
+  git push origin main && cmd //c start https://escmilm-sketch.github.io/Legado
+}
+✅ Activación
+Abrí tu archivo .bashrc:
+
+bash
+nano ~/.bashrc
+Pegá el bloque al final.
+
+Guardá y salí (Ctrl + O, Enter, Ctrl + X)
+
+Recargá:
+
+bash
+source ~/.bashrc
+🧪 Uso táctil desde consola
+bash
+subirlegado
+Te va a pedir el mensaje de commit, lo sube al repositorio remoto y abre el sitio publicado para validar el despliegue.
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Integrasion de Notepad++ a Bash
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Perfecto, Claudio. Esta es la línea quirúrgica que podés copiar a tus apuntes para integrar Notepad++ como alias en Git Bash:
+
+bash
+alias np='"/c/Program Files/Notepad++/notepad++.exe"'
+📌 Esta línea debe ir al final de tu archivo ~/.bashrc. Luego ejecutás:
+
+bash
+source ~/.bashrc
+Y ya podés usar el comando:
+
+bash
+np archivo.html
+Por ejemplo:
+
+bash
+np style_nuevo.css
+np index.html
+np "script automatico subir sitio.txt"
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,137 @@
+Buena pregunta quirúrgica, Claudio. La respuesta depende de dónde y cómo hagas la programación. Vamos paso a paso:
+
+🧠 ¿Se actualiza automáticamente el repositorio?
+No. Git no actualiza el repositorio remoto (GitHub) automáticamente. Para que tus cambios en 3en1v18.html, pampa3.html, guri_v18.html se reflejen en el repositorio, necesitás ejecutar manualmente los siguientes pasos:
+
+🧱 Flujo quirúrgico para actualizar el repositorio
+Editás los archivos localmente Por ejemplo, con Notepad++ o desde consola:
+
+bash
+nano 3en1v18.html
+Agregás los cambios al staging
+
+bash
+git add 3en1v18.html pampa3.html guri_v18.html
+Commit con mensaje claro
+
+bash
+git commit -m "Actualización: meta tags y contenido técnico en 3en1v18, pampa3, guri_v18"
+Push al repositorio remoto
+
+bash
+git push
+📌 Después de esto, los cambios estarán reflejados en GitHub y visibles en el sitio si usás GitHub Pages.
+
+🧰 Alias táctil para automatizar el flujo
+Podés agregar esto a tu .bashrc:
+
+bash
+alias actualizar_legado='git add *.html && git commit -m "Actualización quirúrgica de equipos" && git push'
+Y luego simplemente ejecutás:
+
+bash
+actualizar_legado
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+función Bash quirúrgica que valida si los archivos existen antes de hacer el commit, y actualiza el repositorio solo si hay cambios:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Perfecto, Claudio. Acá tenés una función Bash quirúrgica que valida si los archivos existen antes de hacer el commit, y actualiza el repositorio solo si hay cambios:
+
+🧩 Función actualizar_legado con validación
+Agregala a tu .bashrc o .bash_aliases:
+
+bash
+actualizar_legado() {
+  echo "🔍 Validando archivos..."
+  for archivo in 3en1v18.html pampa3.html guri_v18.html; do
+    if [ -f "$archivo" ]; then
+      echo "✅ $archivo encontrado"
+      git add "$archivo"
+    else
+      echo "⚠️ $archivo no existe"
+    fi
+  done
+
+  cambios=$(git diff --cached --name-only)
+  if [ -n "$cambios" ]; then
+    git commit -m "Actualización quirúrgica: meta tags y contenido técnico"
+    git push
+    echo "🚀 Cambios enviados al repositorio"
+  else
+    echo "🧘 Sin cambios para commitear"
+  fi
+}
+🧪 Activación
+Después de agregarla, ejecutá:
+
+bash
+source ~/.bashrc
+Y luego simplemente:
+
+bash
+actualizar_legado
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+función actualizar_legado, que además de validar los archivos y hacer el push
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Perfecto, Claudio. Acá tenés la versión extendida de la función actualizar_legado, que además de validar los archivos y hacer el push, genera una entrada automática en la bitácora técnica (bitacora/plantilla) con fecha, versión y descripción quirúrgica del cambio.
+
+🧩 Función actualizar_legado con bitácora técnica
+Agregala a tu .bashrc o .bash_aliases:
+
+bash
+actualizar_legado() {
+  echo "🔍 Validando archivos..."
+  archivos=(3en1v18.html pampa3.html guri_v18.html)
+  fecha=$(date +"%Y-%m-%d")
+  version="v$(date +"%y%m%d")"
+  bitacora="bitacora/plantilla"
+
+  for archivo in "${archivos[@]}"; do
+    if [ -f "$archivo" ]; then
+      echo "✅ $archivo encontrado"
+      git add "$archivo"
+    else
+      echo "⚠️ $archivo no existe"
+    fi
+  done
+
+  cambios=$(git diff --cached --name-only)
+  if [ -n "$cambios" ]; then
+    git commit -m "Actualización quirúrgica ${version}: meta tags y contenido técnico"
+    git push
+    echo "🚀 Cambios enviados al repositorio"
+
+    # Actualizar bitácora
+    echo "🧾 Registrando en bitácora..."
+    echo "<!-- ${fecha} | ${version} -->" >> "$bitacora"
+    echo "<p>Actualización quirúrgica de meta tags y contenido técnico en: ${cambios}</p>" >> "$bitacora"
+    echo "<hr>" >> "$bitacora"
+    echo "📌 Bitácora actualizada en $bitacora"
+  else
+    echo "🧘 Sin cambios para commitear"
+  fi
+}
+🧪 Activación
+Después de agregarla, ejecutá:
+
+bash
+source ~/.bashrc
+Y luego simplemente:
+
+bash
+actualizar_legado
+📌 Esto te deja:
+
+Los archivos actualizados en GitHub
+
+Un registro técnico en bitacora/plantilla con fecha y versión
+
+Control quirúrgico sobre cada iteración
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+

@@ -1,0 +1,91 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+🧱 Ubicación local de la clonación
+Cuando hacés:
+
+bash
+git clone https://github.com/usuario/repositorio.git
+Git crea una carpeta nueva con el nombre del repositorio en el directorio actual donde estás parado en la terminal.
+
+🔍 Ejemplo:
+Si estás en:
+
+bash
+cd ~/Documentos/proyectos/
+Y ejecutás:
+
+bash
+git clone https://github.com/escmilm-sketch/Legado.git
+Git crea:
+
+bash
+~/Documentos/proyectos/Legado/
+Ahí adentro vas a encontrar:
+
+Archivos del proyecto
+
+Carpeta .git (oculta) con todo el historial y configuración
+
+🧠 Validación quirúrgica
+Para saber dónde estás parado antes de clonar:
+
+bash
+pwd
+Y para ver si el clon se hizo correctamente:
+
+bash
+ls Legado/
+📦 ¿Dónde está el .git?
+Dentro del clon, Git guarda su estructura en:
+
+bash
+Legado/.git/
+Ahí están:
+
+config: URL remota, nombre de ramas
+
+objects/: historial completo
+
+refs/: punteros a ramas y etiquetas
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Perfecto, Claudio. Acá tenés el alias quirúrgico para clonar el repositorio y abrirlo directamente en navegador o Notepad++ desde tu terminal:
+
+🧩 Alias táctil para clonar y abrir Legado
+1. Agregalo a tu .bashrc o .bash_aliases:
+bash
+alias legado='git clone https://github.com/escmilm-sketch/Legado.git && cd Legado && explorer index.html'
+📌 Este alias:
+
+Clona el repo Legado
+
+Entra a la carpeta
+
+Abre index.html en el navegador por defecto (usando explorer en Windows)
+
+🧠 Variante para abrir en Notepad++
+Si querés que abra directamente en Notepad++:
+
+bash
+alias legadoedit='git clone https://github.com/escmilm-sketch/Legado.git && cd Legado && "C:/Program Files/Notepad++/notepad++.exe" index.html'
+📌 Asegurate de que la ruta a Notepad++ sea correcta. Podés validarla con:
+
+bash
+where notepad++
+🧪 Validación rápida
+Después de agregar el alias, ejecutá:
+
+bash
+source ~/.bashrc
+Y luego simplemente:
+
+bash
+legado
+o
+
+bash
+legadoedit
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
